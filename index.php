@@ -8,7 +8,8 @@
 <body>
 
     <h1>esta es mi primera pagina web</h1>
-   
+    <h2>este es el primer cambio en mi pagina </h2>
+    
     <p>este es el segundo cambio</p>
 
 </body>

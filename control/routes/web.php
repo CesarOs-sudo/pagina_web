@@ -30,9 +30,10 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 //Route::resource('users', UserController::class)->only(['index']);
 //controlador resourse para generar url senecesita {{url('user')}}
 Route::resource('user', UserController::class);
+Route::resource('producto', ProductoController::class);
 //get y renombrado para obtener url se necesita {{resource('porfile')}}
 Route::get('user/profile', [UserController::class, 'index'])->name('profile');
-
+Route::get('producto/getProducto', [ProductoController::class, 'index'])->name('getProducto');
 
 //Route::get('/user', [UserController::class, 'index']);
 
